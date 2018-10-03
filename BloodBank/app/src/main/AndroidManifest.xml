@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.preet.bloodbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Blood Bank"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Home" />
+        <activity android:name=".Registration" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".DonarsList" />
+        <activity android:name=".Location" />
+        <activity android:name=".Centers" />
+        <activity android:name=".Example" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".SearchBlood" />
+        <activity android:name=".UserLogin" />
+        <activity android:name=".register" />
+        <activity android:name=".Logout" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Display" />
+        <activity android:name=".Gps" />
+        <activity android:name=".Another"></activity>
+    </application>
+
+</manifest>
